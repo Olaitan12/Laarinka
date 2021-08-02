@@ -7,6 +7,9 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServicesComponent } from './services/services.component';
 import { PlacesComponent } from './places/places.component';
+import { BookingsComponent } from './bookings/bookings.component';
+import { GuidesComponent } from './guides/guides.component';
+import { CtaComponent } from './cta/cta.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { PlacesComponent } from './places/places.component';
     AboutComponent,
     ContactComponent,
     ServicesComponent,
-    PlacesComponent
+    PlacesComponent,
+    BookingsComponent,
+    GuidesComponent,
+    CtaComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
