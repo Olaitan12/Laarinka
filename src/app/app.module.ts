@@ -10,6 +10,7 @@ import { PlacesComponent } from './places/places.component';
 import { BookingsComponent } from './bookings/bookings.component';
 import { GuidesComponent } from './guides/guides.component';
 import { CtaComponent } from './cta/cta.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CtaComponent } from './cta/cta.component';
     PlacesComponent,
     BookingsComponent,
     GuidesComponent,
-    CtaComponent
+    CtaComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
